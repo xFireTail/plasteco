@@ -1,0 +1,142 @@
+/* COLOR SCHEMES
+
+https://www.schemecolor.com/blue-sea-blues.php
+https://www.schemecolor.com/light-green-light-blue.php
+
+*/
+
+body{
+  margin: 0;
+  background: #fff;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+}
+
+header{
+  display: flex;
+  justify-content: flex-start;
+  flex: 1 1 auto;
+  padding-left: 2em;
+}
+
+.container{
+	max-width: 90%;
+	margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-nav{
+  background: #fff;
+  max-width: 100%;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2em;
+  flex: 1 1 auto;
+}
+
+.nav-item{
+	list-style: none;
+	margin-bottom: 1em;
+	flex-direction: column;
+	justify-content: center;
+  padding-left: 2em;
+  padding-top: 1em;
+}
+
+.nav-link{
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 1rem;
+	color: #1F4168;
+	text-transform: uppercase;
+}
+
+.nav-list{
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+}
+
+.container-hero{
+  height: 100vh;
+}
+
+.container-hero-two{
+  height: 70vh;
+}
+
+.main{
+  flex: 1 1 auto;
+  display: flex;
+  margin: auto;
+}
+
+.motto{
+  margin: auto;
+  text-align: center;
+}
+
+.main2{
+  display: flex;
+  flex-direction: row;
+}
+
+.main2 div{
+  flex: 1 1 auto;
+}
+
+.container-body{
+  background: #AAD7E6;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.header{
+  font-family: 'Crimson Text', serif;
+}
+
+.main-color-font{
+  color: #1F4168;
+  font-family: "Segoe UI",Roboto,Ubuntu,sans-serif;
+}
+
+.footer{
+  height: 10vh;
+  background: #EBF7F5;
+}
+
+#brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  color: #1F4168;
+  text-align: center;
+}
+
+#subtitle{
+  font-family: "Segoe UI",Roboto,Ubuntu,sans-serif;
+  font-weight: 600;
+  color: #006995;
+}
+
+#water-bottle{
+
+}
+
+#about-header{
+
+}
+
+#main-image{
+  width: 50%;
+  height: auto;
+}

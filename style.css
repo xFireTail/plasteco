@@ -150,6 +150,11 @@ nav{
   text-align: center;
 }
 
+.social-media-link{
+  text-decoration: none;
+  color: black;
+}
+
 #brand{
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
